@@ -8,7 +8,7 @@ app = web.application(urls, globals())
 
 
 datos=[]
-with open('vivienda.csv','r') as file:
+with open('viviendaa.csv','r') as file:
         data = csv.reader(file,delimiter=",")
         for row in data:
         
